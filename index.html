@@ -10,19 +10,19 @@
   <div class="container">
   <div class="panel panel-default">
   <div class="panel-heading">
-  <div class="panel-title">What programming language should I learn?</div>
+  <div class="panel-title">What is a Software Stack? Choose the right stack!</div>
   </div>
   <div class="panel-body">
   <div class="epicodus">Epicodus offers the following tracks in Portland and Seattle:</div>
       <ul>
-         <li><button type="button" class="btn btn-primary">Ruby/Rails</button></li>
+         <li><button id="ruby_text" type="button" class="btn btn-primary">Ruby/Rails</button></li>
               <p><div class="ruby_description">Ruby is a favorite language of developers building interactive web applications.
                  If an app involves users creating accounts, entering information, and interacting with dynamic content,
                  there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is
                  written with Ruby, simplified many of the common tasks associated with building web applications.
                  It's most popular with startups and smaller companies who are looking to build their product quickly.
               </div></p>
-         <li><button type="button" class="btn btn-primary">PHP/Drupal</button></li>
+         <li><button id="php_text" type="button" class="btn btn-primary">PHP/Drupal</button></li>
               <p><div class="php_description">PHP is by far the most popular backend language today, with 80 percent of websites
                  utilizing it 'server-side'. It is perhaps best known for it's use in content management systems like Wordpress,
                  Drupal, and Joomla. But the versatility of the language and the frameworks it powers make employment options
@@ -31,8 +31,8 @@
                  building out small sites for brands, businesses, and organizations - In any of these cases, PHP would be a
                  great way to go.
                  </div>
-              </p> 
-          <li><button type="button" class="btn btn-primary">Java/Android</button></li>
+              </p>
+          <li><button id="java_text" type="button" class="btn btn-primary">Java/Android</button></li>
               <p><div class="java_description">Java is also a favorite of enterprise companies, but its appeal is broader as well:
                  it's one of the most popular of all programming languages, and it's used in everything from for
                  high-performance processing to building Android user interfaces. Because Java has been very popular for a
@@ -41,7 +41,7 @@
                  applications, Java could be a good language to learn.
                  </div>
               </p>
-           <li><button type="button" class="btn btn-primary">C#/.NET</button></li>
+           <li><button id="csharp_text" type="button" class="btn btn-primary">C#/.NET</button></li>
                <p><div class="csharp_description">C# is most popular among bigger established businesses, often for building
                  internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of
                  the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately,
@@ -50,7 +50,7 @@
                  larger company on business software, C# is a great choice.
                   </div>
                 </p>
-            <li><button type="button" class="btn btn-primary">CSS/Design</button></li>
+            <li><button id="css_text" type="button" class="btn btn-primary">CSS/Design</button></li>
                 <p><div class="css_description">Web design is a process of conceptualizing, planning, and building a collection
                   of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use
                   of interactive features that deliver pages to your site visitors. Web Design is a crucial component in web
@@ -129,6 +129,7 @@
     <input type="radio" name="flavor" value="userinterface">
     Frontend development
   </label>
+<div id="answer"><h3>Stack for you!</h3></div>
 </div>
 </body>
 </html>
