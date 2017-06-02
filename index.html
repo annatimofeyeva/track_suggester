@@ -65,7 +65,7 @@
   <div>
     <form id="formOne">
       <div class="form-group">
-        <label for="person1"><span id="first_last_name"><h4>First, Last Name</h4></label>
+        <label for="person1"><h4>First, Last Name</h4></label>
         <input id="person1" class="form-control" type="text">
       </div>
   <div class="form-group">
@@ -76,60 +76,64 @@
 <div><h3>Types of Software Applications</h3></div>
 <div class="radio">
   <label id="web_radio">
-    <input type="radio" name="flavor" value="Web" checked>
+    <input type="radio" name="application" value="Web" checked>
     Web
   </label>
 </div id="apps">
 <div class="radio">
   <label id="mobil_radio">
-    <input type="radio" name="flavor" value="mobile">
+    <input type="radio" name="application" value="mobile">
     Mobile
   </label>
 </div>
 <div class="radio">
   <label id="graphic_radio">
-    <input type="radio" name="flavor" value="graphics_programs">
+    <input type="radio" name="application" value="graphics_programs">
     Graphics Programs
   </label>
 </div>
 <div><h3>What programming language?</h3></div>
 <div class="radio">
   <label id="java_radio">
-    <input type="radio" name="flavor" value="java" checked>
+    <input type="radio" name="language" value="java" checked>
     Java
   </label>
 </div>
 <div class="radio">
   <label id="ruby_lang_radio">
-    <input type="radio" name="flavor" value="ruby">
+    <input type="radio" name="language" value="ruby">
     Ruby
   </label>
 </div>
 <div class="radio">
   <label id="php_lang_radio">
-    <input type="radio" name="flavor" value="php">
+    <input type="radio" name="language" value="php">
   PHP
   </label>
 </div>
 <div class="csharp_radio">
   <label id="scharp_lang_radio">
-    <input type="radio" name="flavor" value="csarp">
+    <input type="radio" name="language" value="csarp">
   C Sharp
   </label>
 </div>
 <div><h3>Business vs User Interface logic:</h3></div>
 <div class="radio">
   <label id="backend_radio">
-    <input type="radio" name="flavor" value="business" checked>
+    <input type="radio" name="logic" value="business" checked>
     Backend development
   </label>
 </div>
 <div class="radio">
   <label id="frontend_radio">
-    <input type="radio" name="flavor" value="userinterface">
+    <input type="radio" name="logic" value="userinterface">
     Frontend development
   </label>
+<div><button id="submit_button" type="submit" class="btn btn-default">Submit</button></div>
+
 <div id="answer"><h3>Stack for you!</h3></div>
+</div>
+<div id="output">
 </div>
 </body>
 </html>

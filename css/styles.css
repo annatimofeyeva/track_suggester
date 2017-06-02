@@ -61,5 +61,8 @@ margin-top: 35px;
 #answer{
   margin-top: 40px;
   margin-bottom: 400px;
-
+}
+#submit_button{
+  margin-top: 32px;
+  font-size: 28px;
 }
