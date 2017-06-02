@@ -18,7 +18,7 @@ _no issues up to now_
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, Javascript, JQuery_
+_HTML, CSS, Bootstrap, Javascript, Jquery_
 
 ## GitHub link
 

@@ -1,0 +1,28 @@
+.panel-default{
+margin-top: 35px;
+}
+.panel-title{
+  font-size: 32px;
+}
+.well{
+  font-size: 30px;
+  font-weight: 60%;
+}
+.btn-link{
+  font-size: 23px;
+}
+#ruby{
+  display: none;
+}
+#php{
+  display: none;
+}
+#java{
+  display: none;
+}
+#css{
+  display: none;
+}
+#c-sharp{
+  display: none;
+}
