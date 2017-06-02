@@ -1,8 +1,8 @@
 .epicodus{
   color: #600b3b;
   font-size: 28px;
+  margin-bottom: 40px;
 }
-
 .panel-default{
 margin-top: 35px;
 }
@@ -12,25 +12,6 @@ margin-top: 35px;
 .well{
   font-size: 30px;
   font-weight: 60%;
-}
-.btn-link{
-  font-size: 23px;
-  font
-}
-#ruby{
-  display: none;
-}
-#php{
-  display: none;
-}
-#java{
-  display: none;
-}
-#css{
-  display: none;
-}
-#c-sharp{
-  display: none;
 }
 #web_radio{
   font-size: 19px;
@@ -61,4 +42,19 @@ margin-top: 35px;
 }
 #first_last_name{
   ont-size: 19px;
+}
+.ruby_description{
+  display: none;
+}
+.php_description{
+  display: none;
+}
+.java_description{
+  display: none;
+}
+.csharp_description{
+  display: none;
+}
+.css_description{
+  display: none;
 }
