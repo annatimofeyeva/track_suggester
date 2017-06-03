@@ -58,11 +58,52 @@ margin-top: 35px;
 .css_description{
   display: none;
 }
-#answer{
-  margin-top: 40px;
-  margin-bottom: 400px;
-}
 #submit_button{
   margin-top: 32px;
   font-size: 28px;
+  margin-bottom: 200px;
+}
+.panel-default{
+  border-radius: 10px;
+}
+.panel-heading{
+  border-radius: 10px;
+}
+.well{
+  border-radius: 10px;
+}
+#submit_button{
+  border-radius: 10px;
+}
+#app_types{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#program_lang{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#logic_choice{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#person1{
+  border-radius: 10px;
+}
+#address{
+  border-radius: 10px;
+}
+.about{
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+.btn-primary{
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+.output{
+  display: none;
 }
