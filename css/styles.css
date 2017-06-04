@@ -86,15 +86,15 @@ margin-top: 35px;
 }
 #app_types{
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 #program_lang{
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 #logic_choice{
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 #address{
   border-radius: 10px;
@@ -135,11 +135,11 @@ margin-top: 35px;
 }
 #app_types{
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 #intro_types{
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-size: 19px;
 }
 #yes_radio{
