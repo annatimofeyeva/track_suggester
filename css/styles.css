@@ -65,6 +65,8 @@ margin-top: 35px;
 }
 .panel-default{
   border-radius: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 .panel-heading{
   border-radius: 10px;
@@ -115,3 +117,4 @@ margin-top: 35px;
   font-size: 19px;
   width: 60%;
 }
+.btn { width: 80%; margin-left: 10%; }
