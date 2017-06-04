@@ -110,11 +110,29 @@ margin-top: 35px;
   display: none;
 }
 .col-md-3{
-  margin-left: 40px;
+  margin-left: 8px;
 }
 .col-md-5{
   margin-left: 50px;
   font-size: 19px;
-  width: 60%;
+  width: 70%;
 }
 .btn { width: 80%; margin-left: 10%; }
+#submit_button{
+  width: 20%;
+  float: left;
+}
+#person2{
+  border-radius: 10px;
+}
+#address{
+  width: 89%;
+  margin-left: 40px;
+}
+.panel-default{
+  background-image: image("Epicodus.png");
+}
+body {
+ backgroung-color: white;
+ background-image: url();
+ }
