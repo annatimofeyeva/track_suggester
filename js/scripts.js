@@ -11,6 +11,7 @@ $(document).ready(function() {
       $(".ruby_description").hide();
       $(".csharp_description").hide();
       $(".css_description").hide();
+      $(".java_description").hide();
       $(".php_description").show();
    });
   $("#java_text").click(function(){

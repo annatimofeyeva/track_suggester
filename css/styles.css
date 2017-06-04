@@ -107,3 +107,11 @@ margin-top: 35px;
 .output{
   display: none;
 }
+.col-md-3{
+  margin-left: 40px;
+}
+.col-md-5{
+  margin-left: 50px;
+  font-size: 19px;
+  width: 60%;
+}
