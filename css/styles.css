@@ -62,6 +62,8 @@ margin-top: 35px;
   margin-top: 32px;
   font-size: 28px;
   margin-bottom: 200px;
+  width: 12%;
+  border-color: darkblue;
 }
 .panel-default{
   border-radius: 10px;
@@ -75,7 +77,12 @@ margin-top: 35px;
   border-radius: 10px;
 }
 #submit_button{
+  font-size: 22px;
   border-radius: 10px;
+  width: 11%;
+  border-color: darkblue;
+  margin-left: 1px;
+  }
 }
 #app_types{
   margin-top: 50px;
@@ -88,9 +95,6 @@ margin-top: 35px;
 #logic_choice{
   margin-top: 50px;
   margin-bottom: 25px;
-}
-#person1{
-  border-radius: 10px;
 }
 #address{
   border-radius: 10px;
@@ -118,3 +122,29 @@ margin-top: 35px;
   width: 60%;
 }
 .btn { width: 80%; margin-left: 10%; }
+#person1{
+  border-radius: 10px;
+  width: 105%;
+}
+#person2{
+  border-radius: 10px;
+  width: 118%;
+}
+.col-md-3{
+  margin-left: 3px;
+}
+#app_types{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#intro_types{
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 19px;
+}
+#yes_radio{
+  font-size: 19px;
+}
+#no_radio{
+  font-size: 19px;
+}
