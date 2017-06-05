@@ -35,38 +35,21 @@ $(document).ready(function() {
       $(".csharp_description").hide();
       $(".css_description").show();
     });
-});
-/*
+
+
   $("#submit_button").click(function(event) {
     event.preventDefault();
 
     var firstName = $("#person1").val();
-    var secondName = $("person2").val();
-    var = $("input:radio[name=choosing]:checked").val();
-    var = $("input:radio[name=application]:checked").val();
-    var = $("input:radio[name=language]:checked").val();
-    var = $("input:radio[name=logic]:checked").val();
+    var secondName = $("#person2").val();
+    var choose = $("input:radio[name=choosing]:checked").val();
+    var apps = $("input:radio[name=application]:checked").val();
+    var language = $("input:radio[name=language]:checked").val();
+    var logic = $("input:radio[name=type]:checked").val();
 
-
-
-
-
-
-
-
-    $("div#output").text(first + " " + dob + " " + food + " " + favoriteColor);
-  });
-*/
-
-
-
-
-
-
-
-
-
-
+      $("div#output").text( firstName + " " + secondName + " " + choose + " " + apps + " " + language + " " + logic);
+      });
+    });
 
 /*
 //code using functions that hides not needed descriptions
