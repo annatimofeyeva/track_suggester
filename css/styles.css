@@ -148,3 +148,17 @@ margin-top: 35px;
 #no_radio{
   font-size: 19px;
 }
+.btn-info{
+  color: red;
+}
+#animation{
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-bottom: 100px;
+  width: 10%;
+  border-radius: 10px;
+  border-color: darkblue;
+}
+#close{
+  width: 15%;
+}
