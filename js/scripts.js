@@ -37,6 +37,38 @@ $(document).ready(function() {
     });
 });
 /*
+  $("#submit_button").click(function(event) {
+    event.preventDefault();
+
+    var firstName = $("#person1").val();
+    var secondName = $("person2").val();
+    var = $("input:radio[name=choosing]:checked").val();
+    var = $("input:radio[name=application]:checked").val();
+    var = $("input:radio[name=language]:checked").val();
+    var = $("input:radio[name=logic]:checked").val();
+
+
+
+
+
+
+
+
+    $("div#output").text(first + " " + dob + " " + food + " " + favoriteColor);
+  });
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
 //code using functions that hides not needed descriptions
 $(document).ready(function() {
   $("#ruby_text").click(function() {
@@ -72,5 +104,19 @@ function showDescriptionFor(lang_name) {
     }
   }
 }
+});*/
+
+/*$(document).ready(function() {
+  $("#submit_button").click(function(event) {
+    event.preventDefault();
+    var first = $("#person1").val();
+    var second = $("#person2").val();
+    var intro = $("input:radio[name=flavor]:checked").val();
+    var types = $("input:radio[name=flavor]:checked").val();
+    var lang = $("input:radio[name=flavor]:checked").val();
+    var logic = $("input:radio[name=flavor]:checked").val();
+
+    $("div#output").text(first + " " + dob + " " + food + " " + favoriteColor);
+  });
 });
 */
