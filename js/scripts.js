@@ -6,14 +6,14 @@ $(document).ready(function() {
       $(".csharp_description").hide();
       $(".css_description").hide();
       $(".ruby_description").show();
-   });
+    });
   $("#php_text").click(function(){
       $(".ruby_description").hide();
       $(".csharp_description").hide();
       $(".css_description").hide();
       $(".java_description").hide();
       $(".php_description").show();
-   });
+    });
   $("#java_text").click(function(){
       $(".php_description").hide();
       $(".csharp_description").hide();
@@ -51,12 +51,20 @@ $(document).ready(function() {
     } else {
       if (apps == "mobile" && language == "java") {
         modal_text = "Hi " + firstName + ", Java/Android stack is for you."
+      } else if (apps == "Web" && language == "php") {
+        modal_text = "Hi " + firstName + ", PHP/Drupal stack is for you."
+      } else if (apps == "Web" && language == "ruby") {
+        modal_text = "Hi " + firstName + ", Ruby/Rails stack is for you."
+      } else if (apps == "Web" && language == "csharp") {
+        modal_text = "Hi " + firstName + ", C#/.NET stack is for you."
+      } else if (apps == "Web" && language == "css") {
+        modal_text = "Hi " + firstName + ", CSS/Design stack is for you."
       }
     }
-    $("#modal-text").text(modal_text);
+  $("#modal-text").text(modal_text);
     $("#myModal").modal();
-      });
-    });
+  });
+});
 /*
 //code using functions that hides not needed descriptions
 $(document).ready(function() {
