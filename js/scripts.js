@@ -40,28 +40,34 @@ $(document).ready(function() {
     event.preventDefault();
 
     var firstName = $("#person1").val();
-    var secondName = $("#person2").val();
+    var lastName = $("#person2").val();
     var choose = $("input:radio[name=choosing]:checked").val();
     var apps = $("input:radio[name=application]:checked").val();
     var language = $("input:radio[name=language]:checked").val();
     var logic = $("input:radio[name=type]:checked").val();
-    var modal_text = "Hi " + firstName + ", sorry, nothing for you.";
-    if (choose == "No") {
-      modal_text = "Hi " + firstName + ", you need to go to the Intro to Programming first";
+    if (choose === "No") {
+      $("#modal-text").text("Hi " + firstName + " " + lastName + " , you need to go to the Intro to Programming first");
     } else {
-      if (apps == "mobile" && language == "java") {
-        modal_text = "Hi " + firstName + ", Java/Android stack is for you."
-      } else if (apps == "Web" && language == "php") {
-        modal_text = "Hi " + firstName + ", PHP/Drupal stack is for you."
-      } else if (apps == "Web" && language == "ruby") {
-        modal_text = "Hi " + firstName + ", Ruby/Rails stack is for you."
-      } else if (apps == "Web" && language == "csharp") {
-        modal_text = "Hi " + firstName + ", C#/.NET stack is for you."
-      } else if (apps == "Web" && language == "css") {
-        modal_text = "Hi " + firstName + ", CSS/Design stack is for you."
+      if (apps === "mobile") {
+        $("#modal-text").text("Hi " + firstName + " " + lastName + " , Java/Android stack is for you.");
+      } else {
+        if (language === "php") {
+          $("#modal-text").text("Hi " + firstName + " " + lastName + " , PHP/Drupal stack is for you.");
+        } else if (language === "ruby") {
+          $("#modal-text").text("Hi " + firstName +  " " + lastName + ", Ruby/Rails stack is for you.");
+        } else if (language === "csharp") {
+          $("#modal-text").text("Hi " + firstName + " " + lastName + ", C#/.NET stack is for you.");
+        } else if (language === "css") {
+          $("#modal-text").text("Hi " + firstName + " " + lastName + ", CSS/Design stack is for you.");
+        } else if (language === "java") {
+          $("#modal-text").text("Hi " + firstName + " " + lastName + ", Java/EE stack is for you.");
+        } else if (language === "javascript" &&  logic === "frontend"){
+          $("#modal-text").text("Hi " + firstName + " " + lastName + ", Bootstrap/Design stack is for you.");
+        } else {
+          $("#modal-text").text("Hi " + firstName + " " + lastName + ", NodeJS stack is for you.");
+        }
       }
     }
-  $("#modal-text").text(modal_text);
     $("#myModal").modal();
   });
 });
